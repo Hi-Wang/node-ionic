@@ -1,0 +1,27 @@
+$fab-list-button-background-color:red;
+
+.header-ios .toolbar-ios:last-child .toolbar-background-ios {
+    border-width: 0 0 0;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0;
+    border-left-width: 0px;
+}
+page-home {
+    .homeNavbar{
+        padding:10px 0 10px 0;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        .homeTitle{
+            border-bottom: none;
+        }
+    }
+
+    // 悬浮按钮
+    .fab-in-list{
+        background: red;
+        height:44px;
+        width: 44px;
+    }
+  
+}
